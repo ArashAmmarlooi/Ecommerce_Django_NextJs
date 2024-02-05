@@ -1,0 +1,52 @@
+
+node_modules/
+
+# .gitignore
+
+# Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+venv/
+.env
+
+
+# Next.js
+.next/
+.cache/
+.build/
+build/
+/build/
+.env
+*.log
+
+# # Docker and Compose
+# Dockerfile
+# docker-compose.yml
+# docker-compose.override.yml
+# .env
+
+# IDE and Editor
+.vscode/
+.idea/
+*.iml
+
+# System and Hidden Files
+.DS_Store
+Thumbs.db
+
+# User-Specific Files
+*.swp
+
+# Nginx
+nginx/
+
+# System and Hidden Files
+.DS_Store
+Thumbs.db
+
+
