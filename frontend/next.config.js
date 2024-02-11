@@ -7,7 +7,7 @@ module.exports = {
         includePaths: [path.join(__dirname, 'styles')],
         // prependData: `@import "global.module.scss";`
     },
-    distDir: 'build',
+    // distDir: 'build',
 
     images: {
         domains: ["127.0.0.1"],
