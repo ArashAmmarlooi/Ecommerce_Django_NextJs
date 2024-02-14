@@ -18,6 +18,6 @@ module.exports = {
         // disableStaticImages: false,
     },
     env: {
-        API_URL: 'http://127.0.0.1:8000/api'
+        API_URL: 'http://185.10.75.122/api'
     }
 }

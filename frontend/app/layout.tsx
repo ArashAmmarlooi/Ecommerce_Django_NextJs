@@ -11,6 +11,7 @@ import ReduxProvider from "../src/redux/ReduxProvider";
 import './global.scss';
 const API_URL = process.env.API_URL;
 
+console.log(API_URL, 'API_URL');
 
 async function getData() {
     const catres = await fetch(`${API_URL}/v1/category`, { next: { revalidate: 0 } })

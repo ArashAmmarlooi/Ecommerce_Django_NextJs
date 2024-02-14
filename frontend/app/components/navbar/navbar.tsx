@@ -87,6 +87,7 @@ const Navbar = (props) => {
     const submenuuls = useRef(null);
     useEffect(() => {
         tabitem = document.querySelectorAll('.navbar_categorydivmenu__UNB_W li');
+        console.log(tabitem, 'tabitem');
         console.log(tabitem, 'tabitem in nav');
         tabcontent = document.querySelectorAll('.navbar_subcategorydivmenu__dfA4V ul');
         submenu = document.querySelector('.navbar_submenu__KTDWP')
