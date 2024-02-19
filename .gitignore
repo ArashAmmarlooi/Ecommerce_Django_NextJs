@@ -16,11 +16,6 @@ venv/
 
 
 # Next.js
-.next/
-.cache/
-.build/
-build/
-/build/
 .env
 *.log
 
