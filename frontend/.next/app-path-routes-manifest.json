@@ -1,1 +1,1 @@
-{"/about/page":"/about","/cart/page":"/cart","/_not-found":"/_not-found","/product/[id]/page":"/product/[id]","/products/[...params]/page":"/products/[...params]","/register/page":"/register","/page":"/"}
+{"/_not-found":"/_not-found","/about/page":"/about","/cart/page":"/cart","/product/[id]/page":"/product/[id]","/products/[...params]/page":"/products/[...params]","/register/page":"/register","/page":"/"}

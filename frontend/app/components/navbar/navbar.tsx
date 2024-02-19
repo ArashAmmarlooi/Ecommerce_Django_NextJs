@@ -91,8 +91,8 @@ const Navbar = (props) => {
         console.log(tabitem, 'tabitem in nav');
         tabcontent = document.querySelectorAll('.navbar_subcategorydivmenu__dfA4V ul');
         submenu = document.querySelector('.navbar_submenu__KTDWP')
-        if (tabitem != undefined) tabitem[0].className = 'navbar_lactive___E5oP';
-        if (tabcontent != undefined) tabcontent[0].style.display = 'block';
+        if (tabitem != undefined|| tabitem.length != 0) tabitem[0].className = 'navbar_lactive___E5oP';
+        if (tabcontent != undefined||tabitem.length != 0 ) tabcontent[0].style.display = 'block';
         // dispatch(fetchCategory(category))
         // dispatch(fetchSubCategory(subcategory))
     }, [])

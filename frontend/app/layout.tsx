@@ -14,8 +14,8 @@ const API_URL = process.env.API_URL;
 console.log(API_URL, 'API_URL');
 
 async function getData() {
-    const catres = await fetch(`${API_URL}/v1/category`, { next: { revalidate: 0 } })
-    const subcatres = await fetch(`${API_URL}/v1/subcategory`, { next: { revalidate: 0 } })
+    const catres = await fetch(`http://185.10.75.122/v1/category`, { next: { revalidate: 0 } })
+    const subcatres = await fetch(`http://185.10.75.122/v1/subcategory`, { next: { revalidate: 0 } })
     const category = await catres.json()
     const subcategory = await subcatres.json()
 
