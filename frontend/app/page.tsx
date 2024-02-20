@@ -144,12 +144,15 @@ export default function Home(props) {
           <div>
             {/* {repo.map(elem => <li key={elem.id}>{elem.name}</li>)} */}
           </div>
-          <div></div>
-          <Image
-            src={Homepicture}
-            height={350}
-            width={1200}
-            alt="Follow us on Twitter" />
+          <div className={Styles.homeimg}>
+            <Image
+              src={Homepicture}
+              height={250}
+              width={900}
+              alt="Follow us on Twitter"
+               />
+          </div>
+
           <div className={Styles.homeparag}>
             <h2>پوستت رو دوست داشته باش</h2>
             <p>محصولات مراقبتی پوست</p>

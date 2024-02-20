@@ -138,7 +138,7 @@ const Navbar = (props) => {
                                                 </Link>
                                             </li>
                                         )}
-                                        <Image src={catelem.image} width={180} height={180} alt='' />
+                                        <Image src={catelem.image} width={180} height={180} alt='' referrerPolicy="no-referrer"/>
                                     </ul>
                                 )}
                             </div>
