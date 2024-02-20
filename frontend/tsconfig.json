@@ -40,6 +40,7 @@
     "**/*.tsx",
     "build/types/**/*.ts",
     "/var/www/html/frontend/.next/types/**/*.ts"
+
   ],
   "exclude": [
     "node_modules"

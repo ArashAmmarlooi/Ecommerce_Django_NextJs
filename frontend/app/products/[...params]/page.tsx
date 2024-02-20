@@ -34,7 +34,6 @@ import Addtocart from "app/components/addtocart/addtocart";
 //     slug: string;
 // }
 const API_URL = process.env.API_URL
-console.log(API_URL)
 
 
 

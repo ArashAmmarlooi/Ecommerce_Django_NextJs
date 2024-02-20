@@ -14,8 +14,6 @@
     direction: rtl;
     z-index: 6;
 
-
-
     @keyframes FadeIn {
         0% {
             opacity: 0;
@@ -52,7 +50,6 @@
         opacity: 1;
         animation: FadeIn 0.5s ease-in-out;
         z-index: 3;
-
     }
 
     .submenu {
@@ -64,8 +61,6 @@
         background-color: rgb(255, 255, 255);
         display: none;
         z-index: 5;
-
-
 
         .lactive {
             background-color: rgb(228, 204, 255);
@@ -211,6 +206,8 @@
 @media (max-width: 700px) {
 
     .navmenu {
+        z-index: 6;
+
         .submenu {
             position: absolute;
             height: 400px;
@@ -218,7 +215,6 @@
             top: 70px;
             right: 0;
             background-color: rgb(255, 255, 255);
-            z-index: 1;
             display: none;
 
 
@@ -289,4 +285,5 @@
             }
         }
     }
+
 }

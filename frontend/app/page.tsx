@@ -153,6 +153,7 @@ export default function Home(props) {
                />
           </div>
 
+
           <div className={Styles.homeparag}>
             <h2>پوستت رو دوست داشته باش</h2>
             <p>محصولات مراقبتی پوست</p>
