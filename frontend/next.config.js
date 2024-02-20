@@ -10,7 +10,7 @@ module.exports = {
     // distDir: 'build',
 
     images: {
-        domains: ["127.0.0.1"],
+        domains: ["185.10.75.122"],
         // formats: ["image/webp"],
 
         // path: "/_next/image",
